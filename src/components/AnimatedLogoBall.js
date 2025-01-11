@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./AnimatedLogoBall.module.css"; // Import the CSS module
 
+
 const logos = [
     { src: "tech/html.png", alt: "HTML5 Logo" },
     { src: "tech/css.png", alt: "CSS3 Logo" },
@@ -14,11 +15,13 @@ const logos = [
     { src: "tech/redux.png", alt: "redux Logo" },
     { src: "tech/python.png", alt: "Python Logo" },
     { src: "tech/passportjs.svg", alt: "passportLogo" },
-    { src: "tech/jwt.jpeg", alt: " jwt Logo" },
+    { src: "tech/jwt.png", alt: " Logo" },
     { src: "tech/figma.png", alt: "figma logo" },
     { src: "tech/vercel.png", alt: "Vercel Logo" },
     { src: "tech/github.png", alt: "GitHub Logo" }
 ];
+
+
 
 const InteractiveLogoBall = () => {
     return (
