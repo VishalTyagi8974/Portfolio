@@ -1,0 +1,100 @@
+.about{
+    color:#dee2e6;
+}
+
+.boldCh{
+  color:white;
+  font-weight:600;
+}
+
+
+
+
+.btn-grad {background-color:#8eecf5;}
+.btn-grad {
+   margin: 5px;
+   padding: 5px 20px;
+   text-align: center;
+   /* text-transform: uppercase; */
+   transition: 0.5s;
+   background-size: 200% auto;
+   font-weight:500;
+   color:black;            
+   /* box-shadow: 0 0 20px #eee; */
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover{
+  background-color:#affeff;
+ }
+
+ .cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+  border-radius: 50%;
+  pointer-events: none;
+  /* Prevent interaction with the cursor element */
+
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+
+
+ 
+ 
+ .btn-gradCode {background-color:#edf2f4;}
+ .btn-gradCode {
+    margin: 5px;
+    font-weight:500;
+    padding: 5px 20px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-gradCode:hover {
+    background:#ffffff;
+    text-decoration: none;
+  }
+ 
+
+
+
+
+  
+
+
+  .silverCard {
+    /* border:1px solid #e7ecef; */
+    transition: transform 0.3s ease;
+
+  }
+
+  .silverCard:hover{
+    border:1px solid white;
+    transform: scale(1.02); /* Increase size by 20% */
+  }
+
+
+
+  .transparentBg{
+   
+    background: center/contain linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("/transparentBg.png");
+    height:450px;
+  }
+
+  @media (max-width: 768px) {
+    .transparentBg{
+       height:380px;
+      }
+  }

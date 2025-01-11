@@ -1,0 +1,55 @@
+/* Container for the entire section */
+.techSection {
+   
+    text-align: center;
+    
+    color: #fff;
+   
+}
+
+/* Heading styles */
+.heading {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top:70px;
+    padding-top:60px;
+    
+}
+
+
+/* Container for logos */
+.logoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* Space between logos */
+    margin:60px 0px 50px 0px;
+    padding-bottom:50px;
+}
+
+/* Individual logo styling */
+.logo {
+    width: 100px;
+    max-height:100px; /* Size of each logo */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth animation */
+    filter: brightness(0.8); /* Slightly dimmed initially */
+}
+
+/* Hover effect */
+.logo:hover {
+    transform: translateY(-10px); /* Slight upward movement */
+    filter: brightness(1); /* Brighten on hover */
+}
+
+
+@media (max-width: 768px) {
+    .logo{
+        width: 95px;
+        max-height:95px;
+        filter: brightness(1); 
+        /* height:95px; */
+    }
+  }

@@ -1,0 +1,13 @@
+/* .collapse.navbar-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.navbar-expanded {
+    max-height: 500px; /* Adjust based on the number of items in the navbar */
+/* } */
+/* 
+.navbar-collapsed {
+    max-height: 0;
+} */ 
