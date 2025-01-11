@@ -18,7 +18,7 @@ const Experience = () => {
                     {/* PowerCash Section */}
                     <div className='d-flex justify-content-between w-100'>
                         <div className='me-3'>
-                            <h2>PowerCash</h2>
+                             <h2 className='fw-semibold'>PowerCash</h2>
                             <h5>Sole Web Developer</h5>
                         </div>
                         <img
