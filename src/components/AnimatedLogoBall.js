@@ -11,13 +11,13 @@ const logos = [
     { src: "tech/express.png", alt: "Express.js Logo" },
     { src: "tech/mongo.png", alt: "MongoDB Logo" },
     { src: "tech/next.png", alt: "Next.js Logo" },
-    { src: "tech/redux.png", alt: "Next.js Logo" },
+    { src: "tech/redux.png", alt: "redux Logo" },
     { src: "tech/python.png", alt: "Python Logo" },
-    { src: "tech/jwt.jpeg", alt: "GitHub Logo" },
+    { src: "tech/passportjs.svg", alt: "passportLogo" },
+    { src: "tech/jwt.jpeg", alt: " jwt Logo" },
+    { src: "tech/figma.png", alt: "figma logo" },
     { src: "tech/vercel.png", alt: "Vercel Logo" },
-    { src: "tech/github.png", alt: "GitHub Logo" },
-    { src: "tech/figma.png", alt: "GitHub Logo" }
-
+    { src: "tech/github.png", alt: "GitHub Logo" }
 ];
 
 const InteractiveLogoBall = () => {
